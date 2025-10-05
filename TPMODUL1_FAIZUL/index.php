@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // ********************** 1  **************************
     // Tangkap nilai nama dari form
     if (empty($_POST["nama"])) {
-        $namaErr = "Nama wajib diisi";
+        $namaErr = "Nama wajib diisi"; 
         $isValid = false;
     } else {
         $nama = htmlspecialchars($_POST["nama"]);
@@ -119,4 +119,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   ?>
 </div>
 </body>
+
 </html>
