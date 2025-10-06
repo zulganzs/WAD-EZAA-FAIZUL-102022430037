@@ -56,9 +56,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // buatkan validasi yang sesuai
 
     $jumlah = trim($_POST["jumlah"]);
-    if (empty($nomor)) {
+    if (empty($jumlah)) {
       $jumlahErr = "Nomor telepon wajib diisi";
-    } elseif (!ctype_digit($nomor)) {
+    } elseif (!ctype_digit($jumlah)) {
       $jumlahErr = "Nomor telepon hanya boleh angka";
     }
 
@@ -148,4 +148,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </div>
 </body>
 </html>
+
 
