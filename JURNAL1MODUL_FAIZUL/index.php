@@ -6,7 +6,7 @@ $namaErr = $emailErr = $nomorErr = $filmErr = $jumlahErr = "";
 
 // **********************  2  **************************
 // Jika form disubmit
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST") { 
     
     // **********************  3  **************************
     // Ambil nilai Nama dari form
@@ -148,3 +148,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </div>
 </body>
 </html>
+
