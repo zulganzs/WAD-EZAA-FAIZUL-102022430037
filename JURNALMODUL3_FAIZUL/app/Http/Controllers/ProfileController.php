@@ -14,7 +14,7 @@ class ProfileController extends Controller
         # 2. Ambil satu data mahasiswa dari model User menggunakan fungsi first().
         $mahasiswa = User::first();
         # 3. Kirim data mahasiswa ke view profile menggunakan fungsi compact().
-        return view('profile', compact('mahasiswa', 'salam', 'accessTime'));
+        return view('profile', compact('mahasiswa'));
     }
 
 }

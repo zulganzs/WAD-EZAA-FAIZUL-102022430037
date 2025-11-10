@@ -9,7 +9,7 @@
         <div class="animated-bg"></div>
 
          <!-- 2. Isi value atribut href agar mendirect menuju halaman profile-->
-        <a href="profile" class="btn-profile-top">
+        <a href="{{ url('/profil') }}" class="btn-profile-top">
             <i class="bi bi-person-circle me-1"></i> Lihat Profil
         </a>
 
